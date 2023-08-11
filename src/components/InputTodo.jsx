@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
 const InputTodo = () => {
-    const baseUrl = "http://localhost:3000/todos";
+    const baseUrl = "https://pern-todo-client-p1ww.onrender.com";
 
     const [description, setDescription] = useState("");
 
