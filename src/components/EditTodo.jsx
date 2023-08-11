@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 const EditTodo = ({todo}) => {
-    const baseUrl = "https://pern-todo-client-p1ww.onrender.com";
+    const baseUrl = "https://pern-todo-server-z0fm.onrender.com";
 
     const [description, setDescription] = useState(todo.description);
 
