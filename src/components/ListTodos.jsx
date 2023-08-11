@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import EditTodo from "./EditTodo";
 
 const ListTodos = () => {
-    const baseUrl = "https://pern-todo-client-p1ww.onrender.com";
+    const baseUrl = "https://pern-todo-server-z0fm.onrender.com";
 
     const [todos, setTodos] = useState([]);
 
